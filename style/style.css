@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+}
+
+body {
+  height: 690px;
+  width: 790px;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  margin: 100px auto;
+}
+
+header {
+  height: 190px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2rem;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+}
+
+.header__h1 {
+  color: hsl(234, 12%, 34%);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header__p {
+  font-size: 1rem;
+  color: hsl(229, 6%, 66%);
+  padding-top: 20px;
+}
+
+main {
+  height: 500px;
+  width: 790px;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 20% 20% 20% 20%;
+  gap: 15px;
+  margin: auto;
+}
+
+.table {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 5px grey;
+  padding: 1.3rem;
+  background-color: white;
+}
+
+.table__blue {
+  border-top: solid 5px hsl(180, 62%, 55%);
+
+  grid-column: 1 / 2;
+  grid-row: 2/4;
+}
+
+.table__red {
+  border-top: solid 5px hsl(0, 78%, 62%);
+  grid-column: 2 / 3;
+  grid-row: 1/3;
+}
+
+.table__yellow {
+  border-top: solid 5px hsl(34, 97%, 64%);
+  grid-column: 2 / 3;
+  grid-row: 3/5;
+}
+
+.table__navy {
+  border-top: solid 5px hsl(212, 86%, 64%);
+  grid-column: 3 / 4;
+  grid-row: 2/4;
+}
+
+p {
+  font-size: 0.8rem;
+  color: hsl(229, 6%, 66%);
+}
+
+h2 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 400;
+}
+
+/*couldn't move svg elements via flexbox, so temporarly used margin function*/
+
+svg {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+/* MOBILE - to be adjusted later */
