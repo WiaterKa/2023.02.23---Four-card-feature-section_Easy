@@ -97,7 +97,7 @@ h2 {
 /*couldn't move svg elements via flexbox, so temporarly used margin function*/
 
 svg {
-  margin-left: 250px;
+  margin-left: 150px;
   margin-top: 50px;
 }
 
