@@ -7,10 +7,9 @@
 
 body {
   height: 690px;
-  width: 790px;
   font-family: "Poppins", sans-serif;
   background-color: hsl(0, 0%, 98%);
-  margin: 100px auto;
+  margin: 100px 100px;
 }
 
 header {
@@ -42,7 +41,7 @@ h1 {
 
 main {
   height: 500px;
-  width: 790px;
+  width: 100%;
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: 20% 20% 20% 20%;
@@ -63,7 +62,6 @@ main {
 
 .table__blue {
   border-top: solid 5px hsl(180, 62%, 55%);
-
   grid-column: 1 / 2;
   grid-row: 2/4;
 }
@@ -93,7 +91,7 @@ p {
 
 h2 {
   color: hsl(234, 12%, 34%);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /*couldn't move svg elements via flexbox, so temporarly used margin function*/
