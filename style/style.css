@@ -9,7 +9,7 @@ body {
   height: 690px;
   font-family: "Poppins", sans-serif;
   background-color: hsl(0, 0%, 98%);
-  margin: 100px 100px;
+  margin: 100px 300px;
 }
 
 header {
@@ -97,7 +97,7 @@ h2 {
 /*couldn't move svg elements via flexbox, so temporarly used margin function*/
 
 svg {
-  margin-left: 150px;
+  margin-left: 250px;
   margin-top: 50px;
 }
 
